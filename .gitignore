@@ -1,0 +1,10 @@
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# HEIC originals (JPG versions are included)
+*.HEIC
+
+# Claude dev config
+.claude/
