@@ -728,6 +728,38 @@
       font-style: normal;
     }
 
+    .footer-contact {
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid rgba(201, 144, 138, 0.18);
+    }
+
+    .footer-contact-label {
+      font-family: var(--sans);
+      font-size: 0.62rem;
+      font-weight: 300;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--taupe);
+      margin-bottom: 0.65rem;
+    }
+
+    .footer-email {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+      color: var(--ink);
+      letter-spacing: 0.02em;
+      border-bottom: 1px solid rgba(201, 144, 138, 0.35);
+      padding-bottom: 2px;
+      transition: color var(--ease), border-color var(--ease);
+    }
+
+    .footer-email:hover {
+      color: var(--rose);
+      border-color: var(--rose);
+    }
+
     /* ═══════════════════════════════
        BACK TO TOP
     ═══════════════════════════════ */
@@ -1153,6 +1185,10 @@
 
   <!-- ═══════════ FOOTER ═══════════ -->
   <footer>
+    <div class="footer-contact">
+      <p class="footer-contact-label">collabs &amp; enquiries</p>
+      <a href="mailto:info@polinemeduah.com" class="footer-email">info@polinemeduah.com</a>
+    </div>
     <p class="footer-text">
       Poline Meduah
       <span class="footer-star" aria-hidden="true">✦</span>
